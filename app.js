@@ -6,7 +6,8 @@ const translations = {
             products: "Products",
             services: "Services",
             about: "About",
-            contact: "Contact"
+            contact: "Contact",
+            menu: "Navigation"
         },
         hero: {
             title: "Welcome to ServisMT",
@@ -14,16 +15,90 @@ const translations = {
             cta: "Learn More"
         },
         about: {
-            title: "About ServisMT"
+            title: "About ServisMT",
+            subtitle: "ServisMT is a leading supplier of spare parts and consumables for laser cutting, welding, and engraving machines in Georgia. We supply CO2 and fiber laser machines, engraving and marking lasers, as well as air filtration systems for all types of welding and laser cutting. We have a wide range of consumables at reasonable prices, with a large inventory in stock."
         },
         products: {
             title: "Our Products"
         },
+        card1: {
+            title: "Laser Cutting Machines",
+            subtitle: "Professional laser cutting equipment for various industries",
+        subcard1: {
+            title: "CO2 Laser Machines",
+            subtitle: "High-power CO2 laser systems for thick material cutting",
+        },
+         subcard2: {
+            title:"Fiber Laser Machines",
+            subtitle:"Precision fiber laser systems for metal processing",
+        },
+         subcard3: {
+            title: "Engraving Machines",
+            subtitle: "Specialized equipment for detailed engraving work",
+        },
+          subcard4: {
+            title: "Marking Machines",
+            subtitle: "Industrial marking and coding solutions",
+        },
+        },
+         card2: {
+            title:"Spare Parts & Components",
+            subtitle:"Original and compatible parts for laser equipment",
+        subcard1: {
+            title: "Laser Heads",
+            subtitle: "Cutting heads and focusing systems",
+        },
+         subcard2: {
+            title:"Mirror Mounts",
+            subtitle:"Optical components and mirror assemblies",
+        },
+         subcard3: {
+            title: "Mechanical Parts",
+            subtitle: "Motors, drives, and motion components",
+        },
+          subcard4: {
+            title: "Consumables",
+            subtitle: "Nozzles, lenses, and replacement parts",
+        },
+        },
+         card3: {
+            title: "Ventilation Equipment",
+            subtitle: "Air quality solutions for industrial environments",
+        },
+        subcard1: {
+            title: "Air Filtration Systems",
+            subtitle: "Advanced filtration for clean air",
+        },
+         subcard2: {
+            title:"Dust Collection Systems",
+            subtitle:"Efficient dust and particle removal",
+        },
+         subcard3: {
+            title: "Fume Extraction Units",
+            subtitle: "Fume removal for welding and cutting",
+        },
+          subcard4: {
+            title: "Industrial Fans",
+            subtitle: "Heavy-duty ventilation fans",
+        },
         services: {
             title: "Our Services"
         },
+        servicesCard1: {
+            title:"Equipment Diagnostics",
+            subtitle:"Diagnosis of coordinate and optical systems for laser cutting and engraving machines",
+        },
+        servicesCard2: {
+            title:"Service Maintenance",
+            subtitle:"Service maintenance of coordinate and optical systems for laser cutting and engraving machines",
+        },
+        servicesCard3: {
+            title:"Equipment Repair",
+            subtitle:"Repair of coordinate and optical systems for laser cutting and engraving machines",
+        },
         contact: {
             title: "Contact Us",
+            subtitle: "Leading supplier of laser cutting equipment, spare parts and services in Georgia",
             form: {
                 name: "Name",
                 email: "Email",
@@ -39,7 +114,8 @@ const translations = {
             products: "Продукция",
             services: "Услуги",
             about: "О нас",
-            contact: "Контакты"
+            contact: "Контакты",
+            menu: "Навигация"
         },
         hero: {
             title: "Добро пожаловать в ServisMT",
@@ -47,16 +123,90 @@ const translations = {
             cta: "Узнать больше"
         },
         about: {
-            title: "О компании ServisMT"
+            title: "О компании ServisMT",
+            subtitle: "ServisMT является ведущим поставщиком запасных частей и расходных материалов для станков лазерной резки, сварки и гравировки в Грузии. Мы поставляем станки CO2 и волоконные лазеры, лазеры для гравировки и маркировки, а также системы фильтрации воздуха для всех видов сварки и лазерной резки. У нас широкий ассортимент расходных материалов по приемлемым ценам, с большими складскими запасами."
         },
         products: {
             title: "Наша продукция"
         },
+        card1: {
+            title: "Станки лазерной резки",
+            subtitle: "Профессиональное оборудование для лазерной резки для различных отраслей промышленности",
+        subcard1: {
+            title: "Лазерные станки CO2",
+            subtitle: "Высокомощные лазерные системы CO2 для резки толстых материалов",
+        },
+         subcard2: {
+            title:"Волоконные лазерные станки",
+            subtitle:"Прецизионные волоконные лазерные системы для обработки металлов",
+        },
+         subcard3: {
+            title: "Станки для гравировки",
+            subtitle: "Специализированное оборудование для детальных гравировальных работ",
+        },
+          subcard4: {
+            title: "Станки для маркировки",
+            subtitle: "Промышленные решения для маркировки и кодирования",
+        },
+        },
+         card2: {
+            title:"Запасные части",
+            subtitle:"Оригинальные и совместимые запчасти для лазерного оборудования",
+        subcard1: {
+            title: "Лазерные головки",
+            subtitle: "Режущие головки и системы фокусировки",
+        },
+         subcard2: {
+            title:"Крепления для зеркал",
+            subtitle:"Оптические компоненты и узлы зеркал",
+        },
+         subcard3: {
+            title: "Механические части",
+            subtitle: "Двигатели, приводы и компоненты движения",
+        },
+          subcard4: {
+            title: "Расходные материалы",
+            subtitle: "Сопла, линзы и запасные части",
+        },
+        },
+         card3: {
+            title: "Вентиляционное оборудование",
+            subtitle: "Решения для качества воздуха в промышленных условиях",
+        subcard1: {
+            title: "Системы фильтрации воздуха",
+            subtitle: "Современная фильтрация для чистого воздуха",
+        },
+         subcard2: {
+            title:"Системы пылеулавливания",
+            subtitle:"Эффективное удаление пыли и частиц",
+        },
+         subcard3: {
+            title: "Вытяжные установки",
+            subtitle: "Удаление дыма при сварке и резке",
+        },
+          subcard4: {
+            title: "Промышленные вентиляторы",
+            subtitle: "Промышленные вентиляторы для тяжелых условий эксплуатации",
+        },
+        },
         services: {
             title: "Наши услуги"
         },
+          servicesCard1: {
+            title:"Диагностика оборудования",
+            subtitle:"Диагностика координатных и оптических систем станков для лазерной резки и гравировки",
+        },
+        servicesCard2: {
+            title:"Сервисное обслуживание",
+            subtitle:"Сервисное обслуживание координатных и оптических систем станков для лазерной резки и гравировки",
+        },
+        servicesCard3: {
+            title:"Ремонт оборудования",
+            subtitle:"Ремонт координатных и оптических систем станков для лазерной резки и гравировки",
+        },
         contact: {
             title: "Связаться с нами",
+            subtitle: "Ведущий поставщик оборудования для лазерной резки, запасных частей и услуг в Грузии",
             form: {
                 name: "Имя",
                 email: "Email",
@@ -72,7 +222,8 @@ const translations = {
             products: "პროდუქცია",
             services: "სერვისები",
             about: "ჩვენ შესახებ",
-            contact: "კონტაქტი"
+            contact: "კონტაქტი",
+            menu: "ნავიგაცია",
         },
         hero: {
             title: "მოგესალმებით ServisMT-ში",
@@ -80,16 +231,90 @@ const translations = {
             cta: "გაიგე მეტი"
         },
         about: {
-            title: "ServisMT-ის შესახებ"
+            title: "ServisMT-ის შესახებ",
+            subtitle: "ServisMT არის ლაზერული ჭრის, შედუღებისა და გრავირების დანადგარების სათადარიგო ნაწილებისა და სახარჯი მასალების წამყვანი მიმწოდებელი საქართველოში. ჩვენ გთავაზობთ CO2 და ბოჭკოვან ლაზერულ დანადგარებს, ლაზერებს გრავირებისა და მარკირებისთვის, ასევე ჰაერის ფილტრაციის სისტემებს ყველა ტიპის შედუღებისა და ლაზერული ჭრისთვის. ჩვენ გვაქვს სახარჯი მასალების ფართო ასორტიმენტი მისაღებ ფასებში, საწყობში დიდი მარაგებით."
         },
         products: {
             title: "ჩვენი პროდუქცია"
         },
+         card1: {
+            title: "ლაზერული საჭრელი დანადგარები",
+            subtitle: "პროფესიონალური ლაზერული საჭრელი მოწყობილობები სხვადასხვა ინდუსტრიისთვის",
+        subcard1: {
+            title: "CO2 ლაზერული დანადგარები",
+            subtitle: "მაღალი სიმძლავრის CO2 ლაზერული სისტემები სქელი მასალების საჭრელად",
+        },
+         subcard2: {
+            title:"ბოჭკოვანი ლაზერული დანადგარები",
+            subtitle:"ზუსტი ბოჭკოვანი ლაზერული სისტემები ლითონის დასამუშავებლად",
+        },
+         subcard3: {
+            title: "საგრავირე დანადგარები",
+            subtitle: "სპეციალიზებული მოწყობილობა დეტალური საგრავირე სამუშაოებისთვის",
+        },
+          subcard4: {
+            title: "მარკირების დანადგარები",
+            subtitle: "სამრეწველო მარკირებისა და კოდირების გადაწყვეტილებები",
+        },
+        },
+         card2: {
+            title:"სათადარიგო ნაწილები და კომპონენტები",
+            subtitle: "ორიგინალი და თავსებადი ნაწილები ლაზერული მოწყობილობებისთვის",
+        subcard1: {
+            title: "ლაზერის თავები",
+            subtitle: "საჭრელი თავები და ფოკუსირების სისტემები",
+        },
+         subcard2: {
+            title:"სარკის სამაგრები",
+            subtitle:"ოპტიკური კომპონენტები და სარკის კვანძები",
+        },
+         subcard3: {
+            title: "მექანიკური ნაწილები",
+            subtitle: "ძრავები, ამძრავები და მოძრაობის კომპონენტები",
+        },
+          subcard4: {
+            title: "სახარჯი მასალები",
+            subtitle: "საქშენები, ლინზები და სათადარიგო ნაწილები",
+        },
+        },
+         card3: {
+            title:"სავენტილაციო მოწყობილობები",
+            subtitle: "ჰაერის ხარისხის გადაწყვეტილებები სამრეწველო გარემოსთვის",
+        subcard1: {
+            title: "ჰაერის ფილტრაციის სისტემები",
+            subtitle: "მოწინავე ფილტრაცია სუფთა ჰაერისთვის",
+        },
+         subcard2: {
+            title:"მტვრის შემგროვებელი სისტემები",
+            subtitle:"მტვრისა და ნაწილაკების ეფექტური მოცილება",
+        },
+         subcard3: {
+            title: "კვამლის გამწოვი დანადგარები",
+            subtitle: "კვამლის მოცილება შედუღებისა და ჭრისთვის",
+        },
+          subcard4: {
+            title: "სამრეწველო ვენტილატორები",
+            subtitle: "მძლავრი სავენტილაციო ვენტილატორები",
+        },
+        },
         services: {
             title: "ჩვენი სერვისები"
         },
+          servicesCard1: {
+            title:"მოწყობილობების დიაგნოსტიკა",
+            subtitle:"ლაზერული ჭრისა და გრავირების დანადგარების საკოორდინატო და ოპტიკური სისტემების დიაგნოსტიკა",
+        },
+        servicesCard2: {
+            title:"სერვისული მომსახურება",
+            subtitle:"ლაზერული ჭრისა და გრავირების დანადგარების საკოორდინატო და ოპტიკური სისტემების სერვისული მომსახურება",
+        },
+        servicesCard3: {
+            title:"მოწყობილობების შეკეთება",
+            subtitle:"ლაზერული ჭრისა და გრავირების დანადგარების საკოორდინატო და ოპტიკური სისტემების შეკეთება",
+        },
         contact: {
             title: "დაგვიკავშირდით",
+            subtitle: "ლაზერული საჭრელი მოწყობილობების, სათადარიგო ნაწილებისა და სერვისების წამყვანი მიმწოდებელი საქართველოში",
             form: {
                 name: "სახელი",
                 email: "ელ. ფოსტა",

@@ -675,7 +675,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -689,7 +689,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 { font-size: 3.5rem; }
 h2 { font-size: 2.5rem; }
-h3 { font-size: 2rem; }
+h3 { font-size: 1.6rem; }
 h4 { font-size: 1.5rem; }
 
 .section-title {
@@ -900,7 +900,7 @@ h4 { font-size: 1.5rem; }
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('https://thumbs.dreamstime.com/b/laser-cutting-machine-creating-sparks-processing-metal-sheet-high-tech-action-producing-bright-as-precisely-cuts-369716429.jpg');
+    background-image: url('./img/hero_bg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1012,7 +1012,7 @@ h4 { font-size: 1.5rem; }
 .products__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2rem;
+    gap: 1.8rem;
 }
 
 .product-card {
@@ -1045,7 +1045,7 @@ h4 { font-size: 1.5rem; }
 }
 
 .product-card__content {
-    padding: 1.5rem;
+    padding: 2.5rem;
     position: relative;
 }
 
@@ -1093,7 +1093,7 @@ h4 { font-size: 1.5rem; }
 }
 
 .product-card__subcategories.expanded {
-    max-height: 600px;
+    max-height: 700px;
     padding: 1.5rem;
 }
 
