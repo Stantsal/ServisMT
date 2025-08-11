@@ -1498,8 +1498,9 @@ h4 { font-size: 1.5rem; }
    max-width: 90vw;
 }
 .product-card__subcategories.expanded {
-    max-height: 100vh;
-    margin-bottom: 2rem;
+    min-height: 900px;
+    padding-bottom: 3rem;
+    
    
 }
 .products {
