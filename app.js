@@ -64,7 +64,7 @@ const translations = {
          card3: {
             title: "Ventilation Equipment",
             subtitle: "Air quality solutions for industrial environments",
-        },
+        
         subcard1: {
             title: "Air Filtration Systems",
             subtitle: "Advanced filtration for clean air",
@@ -81,6 +81,8 @@ const translations = {
             title: "Industrial Fans",
             subtitle: "Heavy-duty ventilation fans",
         },
+    },
+
         services: {
             title: "Our Services"
         },
