@@ -675,7 +675,7 @@ body {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -1461,6 +1461,7 @@ h4 { font-size: 1.5rem; }
 }
  
 @media (max-width: 480px){
+
     .hero {
         padding: 0 15px;
     }
@@ -1482,4 +1483,20 @@ h4 { font-size: 1.5rem; }
         width: 80px;
         height: 80px;
     }
+    .contact__form-wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+   
+}
+.contact__info {
+max-width: 300px;
+margin: 0 auto;
+
+}
+
+.product-card__subcategories.expanded {
+    max-height: 120vh;
+    padding: 0.5rem;
+}
+
 }
