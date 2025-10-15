@@ -26,15 +26,15 @@ const translations = {
             subtitle: "Professional laser cutting equipment for various industries",
         subcard1: {
             title: "CO2 Laser Machines",
-            subtitle: "High-power CO2 laser systems for thick material cutting",
+            subtitle: "CO2 laser cutting and engraving machines (wood, plastic, leather)",
         },
          subcard2: {
             title:"Fiber Laser Machines",
             subtitle:"Precision fiber laser systems for metal processing",
         },
          subcard3: {
-            title: "Engraving Machines",
-            subtitle: "Specialized equipment for detailed engraving work",
+            title: "Laser welding machines",
+            subtitle: "Laser machines for welding, cutting, and cleaning metals",
         },
           subcard4: {
             title: "Marking Machines",
@@ -49,8 +49,8 @@ const translations = {
             subtitle: "Cutting heads and focusing systems",
         },
          subcard2: {
-            title:"Mirror Mounts",
-            subtitle:"Optical components and mirror assemblies",
+            title:"Spare parts for CO₂ lasers",
+            subtitle:"Spare parts for CO₂ lasers (laser tubes, mirrors, lenses)",
         },
          subcard3: {
             title: "Mechanical Parts",
@@ -87,16 +87,16 @@ const translations = {
             title: "Our Services"
         },
         servicesCard1: {
-            title:"Equipment Diagnostics",
-            subtitle:"Diagnosis of coordinate and optical systems for laser cutting and engraving machines",
+            title:"Diagnostics and repair",
+            subtitle:"Diagnostics, repair, and installation of laser equipment",
         },
         servicesCard2: {
-            title:"Service Maintenance",
-            subtitle:"Service maintenance of coordinate and optical systems for laser cutting and engraving machines",
+            title:"Commissioning works",
+            subtitle:"Commissioning of laser cutting, engraving, and welding machines",
         },
         servicesCard3: {
-            title:"Equipment Repair",
-            subtitle:"Repair of coordinate and optical systems for laser cutting and engraving machines",
+            title:"Experienced specialists",
+            subtitle:"Experienced specialists and a personalized approach. Fast response and precise diagnostics.",
         },
         contact: {
             title: "Contact Us",
@@ -136,15 +136,15 @@ const translations = {
             subtitle: "Профессиональное оборудование для лазерной резки для различных отраслей промышленности",
         subcard1: {
             title: "Лазерные станки CO2",
-            subtitle: "Высокомощные лазерные системы CO2 для резки толстых материалов",
+            subtitle: "CO₂ лазерные станки для резки и гравировки (дерево, пластик, кожа)",
         },
          subcard2: {
             title:"Волоконные лазерные станки",
             subtitle:"Прецизионные волоконные лазерные системы для обработки металлов",
         },
          subcard3: {
-            title: "Станки для гравировки",
-            subtitle: "Специализированное оборудование для детальных гравировальных работ",
+            title: "Аппараты для лазерной сварки",
+            subtitle: "Аппараты для лазерной сварки ,резки и чистки металлов",
         },
           subcard4: {
             title: "Станки для маркировки",
@@ -159,8 +159,8 @@ const translations = {
             subtitle: "Режущие головки и системы фокусировки",
         },
          subcard2: {
-            title:"Крепления для зеркал",
-            subtitle:"Оптические компоненты и узлы зеркал",
+            title:"Запчасти для СО2 лазеров",
+            subtitle:"Запчасти для СО2 лазеров (лазерные трубки, зеркала, линзы)",
         },
          subcard3: {
             title: "Механические части",
@@ -195,16 +195,16 @@ const translations = {
             title: "Наши услуги"
         },
           servicesCard1: {
-            title:"Диагностика оборудования",
-            subtitle:"Диагностика координатных и оптических систем станков для лазерной резки и гравировки",
+            title:"Диагностика и ремонт",
+            subtitle:"Диагностика, ремонт и установка лазерного оборудования",
         },
         servicesCard2: {
-            title:"Сервисное обслуживание",
-            subtitle:"Сервисное обслуживание координатных и оптических систем станков для лазерной резки и гравировки",
+            title:"Пусконаладочные работы",
+            subtitle:"Пусконаладочные работы станков для лазерной резки, гравировки и сварки",
         },
         servicesCard3: {
-            title:"Ремонт оборудования",
-            subtitle:"Ремонт координатных и оптических систем станков для лазерной резки и гравировки",
+            title:"Опытные специалисты",
+            subtitle:"Опытные специалисты и индивидуальный подход. Быстрое реагирование и точная диагностика",
         },
         contact: {
             title: "Связаться с нами",
@@ -244,15 +244,15 @@ const translations = {
             subtitle: "პროფესიონალური ლაზერული საჭრელი მოწყობილობები სხვადასხვა ინდუსტრიისთვის",
         subcard1: {
             title: "CO2 ლაზერული დანადგარები",
-            subtitle: "მაღალი სიმძლავრის CO2 ლაზერული სისტემები სქელი მასალების საჭრელად",
+            subtitle: "CO₂ ლაზერული ჭრისა და გრავირების დანადგარები (ხე, პლასტმასი, ტყავი)",
         },
          subcard2: {
             title:"ბოჭკოვანი ლაზერული დანადგარები",
             subtitle:"ზუსტი ბოჭკოვანი ლაზერული სისტემები ლითონის დასამუშავებლად",
         },
          subcard3: {
-            title: "საგრავირე დანადგარები",
-            subtitle: "სპეციალიზებული მოწყობილობა დეტალური საგრავირე სამუშაოებისთვის",
+            title: "საგრავირე \n დანადგარლ\nაზერული შედუღების აპარატებიები",
+            subtitle: "ლაზერული აპარატები მეტალების შედუღებისთვის, ჭრისა და გასაწმენდად",
         },
           subcard4: {
             title: "მარკირების დანადგარები",
@@ -267,8 +267,8 @@ const translations = {
             subtitle: "საჭრელი თავები და ფოკუსირების სისტემები",
         },
          subcard2: {
-            title:"სარკის სამაგრები",
-            subtitle:"ოპტიკური კომპონენტები და სარკის კვანძები",
+            title:"სარკის სამასათ\nადარიგო ნაწილები CO₂ ლაზერებისთ\nვისგრები",
+            subtitle:"სათადარიგო ნაწილები CO₂ ლაზერებისთვის (ლაზერული მილი, სარკეები, ობიექტივები)",
         },
          subcard3: {
             title: "მექანიკური ნაწილები",
@@ -303,16 +303,16 @@ const translations = {
             title: "ჩვენი სერვისები"
         },
           servicesCard1: {
-            title:"მოწყობილობების დიაგნოსტიკა",
-            subtitle:"ლაზერული ჭრისა და გრავირების დანადგარების საკოორდინატო და ოპტიკური სისტემების დიაგნოსტიკა",
+            title:"დიაგნოსტიკა, შეკეთება და მონტაჟი",
+            subtitle:"ლაზერული აღჭურვილობის დიაგნოსტიკა, შეკეთება და მონტაჟი",
         },
         servicesCard2: {
-            title:"სერვისული მომსახურება",
-            subtitle:"ლაზერული ჭრისა და გრავირების დანადგარების საკოორდინატო და ოპტიკური სისტემების სერვისული მომსახურება",
+            title:"ექსპლუატაციაში გაშვების სამუშაოები",
+            subtitle:"ლაზერული ჭრის, გრავირების და შედუღების დანადგარების ექსპლუატაციაში გაშვების სამუშაოები",
         },
         servicesCard3: {
-            title:"მოწყობილობების შეკეთება",
-            subtitle:"ლაზერული ჭრისა და გრავირების დანადგარების საკოორდინატო და ოპტიკური სისტემების შეკეთება",
+            title:"გამოცდილი სპეციალისტები",
+            subtitle:"გამოცდილი სპეციალისტები და ინდივიდუალური მიდგომა. სწრაფი რეაგირება და ზუსტი დიაგნოსტიკა.",
         },
         contact: {
             title: "დაგვიკავშირდით",
